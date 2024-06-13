@@ -1,0 +1,237 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+height: 100vh; 
+width: 100%;  
+margin: 0;   
+padding: 0;    
+}
+
+header {
+background-color: #de90fd;
+min-height: 50px;
+padding: 10px;
+text-align: center;
+clear: both;
+}
+
+main {
+width: 100%;    
+height: 850px;     
+background-color: bisque;   
+padding-top: 20px;  
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+footer {
+background-color: #de90fd;     
+min-height: 50px;       
+padding: 10px;       
+text-align: center;       
+clear: both;
+}
+
+/* INICIO DE PAGINA # 1 */
+
+nav {
+display: flex;  
+flex-direction: row;  
+justify-content: flex-start;
+align-items: center;
+gap: 10px;
+}
+
+nav a {
+display: inline-block;
+margin-right: 10px;   
+padding: 10px 20px; 
+border: none; 
+border-radius: 3px; 
+background-color: rgb(169, 255, 202); 
+color: #0c0c0c; 
+text-decoration: none;
+}
+  
+#logo {
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: space-between;
+margin-left: 1250px;  
+
+}
+
+#titulospagina1 {
+display: block;
+width: 100%;  
+text-align: center;
+
+}
+
+#banner {
+width: 1300px;
+height: 300px;
+display: block;
+margin: 0 auto;
+}
+
+#textopagina1{
+    
+margin-right: 800px;
+margin-top: 60px;
+margin-left: 20px;
+text-align: center;
+
+}
+
+#imagenpagina1{
+width: 300px;
+height: 300px; 
+margin-left: 500px; 
+display: flex; 
+justify-content: flex-start; 
+align-self: flex-start; 
+margin-top: -80px;
+
+}
+
+/* FINAL DE PAGINA #1 */
+
+
+
+/* INICIO DE PAGINA # 2 */
+
+#titulospagina2 {
+display: block;
+width: 100%;  
+text-align: center;
+}    
+
+
+#container {
+display: flex;
+flex-direction: column; 
+align-items: flex-start;
+justify-content: flex-start;
+align-self: start;
+padding: 20px;
+}
+
+#container img {
+width: 200px; 
+height: 200px; 
+margin: 10px 0;
+}
+
+
+.imagen1  { 
+width: 200px;
+height: 200px;
+margin: 0 10px;    
+}
+
+
+
+.imagen2 {
+width: 200px; 
+height: 200px;
+margin: 0 10px;              
+}
+
+
+.imagen3 {
+width: 200px;
+height: 200px;
+margin: 0 10px;
+}
+
+
+#textospagina2{
+display: flex;
+padding: 20px;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.texto1{
+width: 200px;
+height: 200px;
+margin: 0 10px;
+margin-top: -450px;     
+}
+
+.texto2{
+width: 200px;
+height: 200px;
+margin: 0 10px;
+margin-top: -450px;
+
+}
+
+.texto3{
+width: 200px;
+height: 200px;
+margin: 0 10px;
+margin-top: 250px;
+
+}
+
+
+
+  
+/* FINAL DE PAGINA # 2 */
+  
+
+/* NICIO DE PAGINA # 3 */
+
+#titulospagina3{
+display: block;
+width: 100%;  
+text-align: center;
+
+}
+
+#imgpagina3{
+
+width: 1300px;
+height: 300px;
+display: block;
+margin: 0 auto;
+
+}
+
+#telefono{
+position: absolute;
+bottom: 0; 
+right: 20px;
+}
+
+
+#correo {
+position: absolute;
+bottom: 0; 
+left: 20px;
+}
+ 
+ 
+#parrafopagina3{
+
+padding-top: 50px ;
+padding-left: 50px;
+padding-right: 50px;
+display: flex;
+justify-content: center;
+
+}
+
+/*FINAL DE PAGINA # 3 */
+
+      
+      
+
